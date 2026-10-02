@@ -18,7 +18,7 @@
 - 🎓 **Education**: Pursuing B.Tech in Computer Engineering (Class of 2028), based in Ahmedabad, India.
 - 💻 **Core Focus**: Full-stack web development, backend architecture, and applied AI/ML.
 - 🛠️ **Current Work**: Architecting **[Inventra](https://github.com/Destroyerved/inventra-inventory-system)** — a multi-warehouse inventory system with an immutable audit ledger.
-- 👥 **Leadership**: Operations Executive & Recruiter at **Persistence**; former Gaming Head at Computer Science & Gaming Club.
+- 👥 **Leadership**: Operations Head at **Computer Science & Gaming Club (CSGC)**; Operations Executive & Recruiter at **Persistence**.
 
 ---
 
