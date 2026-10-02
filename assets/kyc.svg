@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" role="img" aria-labelledby="t d">
+  <title id="t">KYC — Know Your Coder</title>
+  <desc id="d">Terminal running "kyc --verify destroyerved": Ved Sharma, Fintech Developer; B.Tech Computer Engineering, class of 2028; Ahmedabad / Gandhinagar, India; stack TypeScript, Python, React, Node, Express, SQLite; building PalmPayment (stealth) and the Inventra ledger system; Operations Executive and Recruiter at Persistence; Gaming Head at CSGC. KYC passed.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1000" height="410" rx="16"/></clipPath>
+    <clipPath id="typing">
+      <rect x="180" y="60" width="0" height="30">
+        <animate attributeName="width" begin="0.4s" dur="1.3s" fill="freeze" calcMode="discrete"
+          values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;171;180;189;198;207;216;225;260"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+    .ln{opacity:0;animation:in .35s ease-out forwards}
+    @keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:translateX(0)}}
+    .blink{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .k{fill:#FFB000;font-weight:700}
+    .v{fill:#E6EDF3}
+  </style>
+
+  <g clip-path="url(#frame)" class="mono">
+    <rect width="1000" height="410" fill="#0A0E14"/>
+    <rect width="1000" height="40" fill="#0F141C"/>
+    <line x1="0" y1="40" x2="1000" y2="40" stroke="#1F2937"/>
+    <circle cx="24" cy="20" r="6" fill="#FF5F56"/>
+    <circle cx="44" cy="20" r="6" fill="#FFBD2E"/>
+    <circle cx="64" cy="20" r="6" fill="#27C93F"/>
+    <text x="500" y="25" text-anchor="middle" font-size="12" letter-spacing="1" fill="#6E7681">kyc — know your coder</text>
+
+    <g font-size="15">
+      <!-- command -->
+      <text x="32" y="80"><tspan fill="#00FF9C" font-weight="700">ved@terminal</tspan><tspan fill="#6E7681">:~$</tspan></text>
+      <text x="180" y="80" fill="#E6EDF3" clip-path="url(#typing)">kyc --verify destroyerved</text>
+
+      <text class="ln" style="animation-delay:1.9s" x="32" y="112" fill="#6E7681">▸ pulling identity records ...............<tspan fill="#00FF9C" font-weight="700"> OK</tspan></text>
+
+      <g class="ln" style="animation-delay:2.4s"><text x="52" y="150" class="k">NAME</text><text x="232" y="150" class="v">Ved Sharma</text></g>
+      <g class="ln" style="animation-delay:2.6s"><text x="52" y="178" class="k">ROLE</text><text x="232" y="178" fill="#00FF9C" font-weight="700">Fintech Developer</text></g>
+      <g class="ln" style="animation-delay:2.8s"><text x="52" y="206" class="k">EDUCATION</text><text x="232" y="206" class="v">B.Tech Computer Engineering · class of 2028</text></g>
+      <g class="ln" style="animation-delay:3.0s"><text x="52" y="234" class="k">BASE</text><text x="232" y="234" class="v">Ahmedabad / Gandhinagar, India</text></g>
+      <g class="ln" style="animation-delay:3.2s"><text x="52" y="262" class="k">STACK</text><text x="232" y="262" class="v">TypeScript · Python · React · Node · SQLite</text></g>
+      <g class="ln" style="animation-delay:3.4s"><text x="52" y="290" class="k">BUILDING</text><text x="232" y="290" class="v">PalmPayment <tspan fill="#FFB000">(stealth)</tspan> · Inventra ledger</text></g>
+      <g class="ln" style="animation-delay:3.6s"><text x="52" y="318" class="k">ALSO</text><text x="232" y="318" class="v">Ops Exec &amp; Recruiter @ Persistence · Gaming Head @ CSGC</text></g>
+
+      <g class="ln" style="animation-delay:4.2s">
+        <rect x="32" y="340" width="138" height="24" rx="4" fill="#00FF9C"/>
+        <text x="101" y="357" text-anchor="middle" fill="#0A0E14" font-weight="800">✓ KYC PASSED</text>
+        <text x="186" y="357" fill="#6E7681">clearance: full-stack  ·  risk appetite: ship it</text>
+      </g>
+
+      <g class="ln" style="animation-delay:4.7s">
+        <text x="32" y="390"><tspan fill="#00FF9C" font-weight="700">ved@terminal</tspan><tspan fill="#6E7681">:~$</tspan></text>
+        <rect class="blink" x="180" y="376" width="10" height="18" fill="#FFB000"/>
+      </g>
+    </g>
+
+    <!-- ID seal -->
+    <g class="ln" style="animation-delay:2.4s">
+      <circle class="spin" cx="886" cy="196" r="66" fill="none" stroke="#FFB000" stroke-width="2" stroke-dasharray="6 7"/>
+      <circle cx="886" cy="196" r="52" fill="#0F141C" stroke="#30363D" stroke-width="1.5"/>
+      <text x="886" y="209" text-anchor="middle" font-size="36" font-weight="800" fill="#E6EDF3">VS</text>
+    </g>
+    <g class="ln" style="animation-delay:4.2s" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">
+      <text x="886" y="294" fill="#00FF9C">● VERIFIED</text>
+      <text x="886" y="314" fill="#6E7681" letter-spacing="0">@destroyerved</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="409" rx="16" fill="none" stroke="#1F2937"/>
+</svg>

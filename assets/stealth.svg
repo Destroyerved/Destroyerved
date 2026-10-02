@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="t d">
+  <title id="t">PalmPayment — stealth mode</title>
+  <desc id="d">Classified-file card: PalmPayment, a payments project in a private repo under active development. Details redacted; access restricted.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1000" height="230" rx="16"/></clipPath>
+    <clipPath id="bars">
+      <rect x="40" y="156" width="540" height="12" rx="2"/>
+      <rect x="40" y="178" width="420" height="12" rx="2"/>
+      <rect x="40" y="200" width="300" height="12" rx="2"/>
+    </clipPath>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFB000" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#FFB000" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#FFB000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+    .blink{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .stamp{opacity:0;animation:stamp .5s cubic-bezier(.2,1.6,.4,1) .9s forwards;transform-box:fill-box;transform-origin:center}
+    @keyframes stamp{from{opacity:0;transform:scale(1.8)}to{opacity:.9;transform:scale(1)}}
+  </style>
+
+  <g clip-path="url(#frame)" class="mono">
+    <rect width="1000" height="230" fill="#0A0E14"/>
+    <rect x="0" y="0" width="6" height="230" fill="#FFB000"/>
+
+    <circle class="blink" cx="44" cy="38" r="5" fill="#FFB000"/>
+    <text x="58" y="43" font-size="13" font-weight="800" letter-spacing="3" fill="#FFB000">STEALTH MODE</text>
+    <text x="964" y="43" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2" fill="#6E7681">FILE <tspan fill="#FFB000">$PALM</tspan></text>
+
+    <text x="40" y="104" font-size="46" font-weight="800" fill="#E6EDF3" textLength="372" lengthAdjust="spacingAndGlyphs">PALMPAYMENT</text>
+    <text x="40" y="136" font-size="16" fill="#8B949E">payments · private repo · <tspan fill="#00FF9C">in active development</tspan></text>
+
+    <g fill="#1F2937">
+      <rect x="40" y="156" width="540" height="12" rx="2"/>
+      <rect x="40" y="178" width="420" height="12" rx="2"/>
+      <rect x="40" y="200" width="300" height="12" rx="2"/>
+    </g>
+    <g clip-path="url(#bars)">
+      <rect x="-200" y="150" width="200" height="70" fill="url(#shine)">
+        <animate attributeName="x" values="-200;700" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="rotate(-9 800 150)">
+      <g class="stamp">
+        <rect x="672" y="112" width="256" height="78" rx="8" fill="none" stroke="#FF3B5C" stroke-width="3"/>
+        <rect x="680" y="120" width="240" height="62" rx="5" fill="none" stroke="#FF3B5C" stroke-width="1"/>
+        <text x="800" y="153" text-anchor="middle" font-size="21" font-weight="800" fill="#FF3B5C" textLength="212" lengthAdjust="spacingAndGlyphs">ACCESS RESTRICTED</text>
+        <text x="800" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#FF3B5C" textLength="180" lengthAdjust="spacing">OWNER CLEARANCE ONLY</text>
+      </g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="229" rx="16" fill="none" stroke="#FFB000" stroke-opacity=".6" stroke-dasharray="10 6"/>
+</svg>

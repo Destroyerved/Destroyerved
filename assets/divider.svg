@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="36" viewBox="0 0 1000 36" role="img" aria-label="Animated price-line divider">
+  <defs>
+    <filter id="glow" x="-10%" y="-200%" width="120%" height="500%">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+  </defs>
+  <path d="M0 26 L50 22 L100 27 L150 17 L200 21 L250 12 L300 19 L350 14 L400 23 L450 10 L500 16 L550 8 L600 18 L650 11 L700 20 L750 9 L800 15 L850 6 L900 13 L950 7 L1000 11" fill="none" stroke="#1F2937" stroke-width="1.5" stroke-linejoin="round"/>
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path pathLength="1000" stroke-dasharray="90 1910" d="M0 26 L50 22 L100 27 L150 17 L200 21 L250 12 L300 19 L350 14 L400 23 L450 10 L500 16 L550 8 L600 18 L650 11 L700 20 L750 9 L800 15 L850 6 L900 13 L950 7 L1000 11" stroke="#FFB000" stroke-width="5" opacity=".6" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" values="90;-1000" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path pathLength="1000" stroke-dasharray="90 1910" d="M0 26 L50 22 L100 27 L150 17 L200 21 L250 12 L300 19 L350 14 L400 23 L450 10 L500 16 L550 8 L600 18 L650 11 L700 20 L750 9 L800 15 L850 6 L900 13 L950 7 L1000 11" stroke="#FFB000" stroke-width="2">
+      <animate attributeName="stroke-dashoffset" values="90;-1000" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <circle r="3.5" fill="#00FF9C">
+    <animateMotion dur="5s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.917;1"
+      path="M0 26 L50 22 L100 27 L150 17 L200 21 L250 12 L300 19 L350 14 L400 23 L450 10 L500 16 L550 8 L600 18 L650 11 L700 20 L750 9 L800 15 L850 6 L900 13 L950 7 L1000 11"/>
+  </circle>
+</svg>

@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="t d">
+  <title id="t">Ved Sharma — Fintech Developer</title>
+  <desc id="d">Trading-terminal banner: Ved Sharma, Fintech Developer, with an animated candlestick chart and a scrolling ticker of his stack.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1000" height="360" rx="16"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#111823" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vignette" cx="0.78" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#FFB000" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#FFB000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00FF9C" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#00FF9C" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+    .blink{animation:blink 1.1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .pulse{animation:pulse 1.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pulse{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.4);opacity:0}}
+    .c{opacity:0;animation:rise .45s ease-out forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    .ma{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.2s ease-in-out 2.4s forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    .fade{opacity:0;animation:fadein .9s ease-out forwards}
+    @keyframes fadein{to{opacity:1}}
+  </style>
+
+  <g clip-path="url(#frame)" class="mono">
+    <!-- base -->
+    <rect width="1000" height="360" fill="#0A0E14"/>
+    <rect width="1000" height="360" fill="url(#grid)"/>
+    <rect width="1000" height="360" fill="url(#vignette)"/>
+
+    <!-- title bar -->
+    <rect width="1000" height="40" fill="#0F141C"/>
+    <line x1="0" y1="40" x2="1000" y2="40" stroke="#1F2937"/>
+    <circle cx="24" cy="20" r="6" fill="#FF5F56"/>
+    <circle cx="44" cy="20" r="6" fill="#FFBD2E"/>
+    <circle cx="64" cy="20" r="6" fill="#27C93F"/>
+    <text x="500" y="25" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2" fill="#FFB000">VED &lt;GO&gt;</text>
+    <text x="892" y="25" text-anchor="end" font-size="11" letter-spacing="1" fill="#6E7681">AHMEDABAD · IST</text>
+    <circle class="blink" cx="908" cy="21" r="4" fill="#00FF9C"/>
+    <text x="918" y="25" font-size="11" font-weight="700" letter-spacing="1" fill="#00FF9C">LIVE</text>
+
+    <!-- identity -->
+    <text x="40" y="94" font-size="15" font-weight="700" letter-spacing="3"><tspan fill="#00FF9C">&gt;</tspan><tspan fill="#FFB000"> FINTECH DEVELOPER</tspan></text>
+    <text x="40" y="165" font-size="64" font-weight="800" fill="#E6EDF3" textLength="400" lengthAdjust="spacingAndGlyphs">VED SHARMA</text>
+    <rect class="blink" x="454" y="120" width="26" height="45" fill="#FFB000"/>
+    <text x="40" y="208" font-size="17" fill="#C9D1D9">Ledgers that balance. Payments that land.</text>
+    <text x="40" y="234" font-size="17" fill="#8B949E">Audit trails that <tspan fill="#00FF9C">never lie.</tspan></text>
+
+    <g font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle">
+      <rect x="40" y="262" width="118" height="26" rx="13" fill="#FFB000" fill-opacity=".08" stroke="#FFB000"/>
+      <text x="99" y="279" fill="#FFB000">CLASS OF 2028</text>
+      <rect x="168" y="262" width="124" height="26" rx="13" fill="none" stroke="#30363D"/>
+      <text x="230" y="279" fill="#8B949E">AHMEDABAD · IN</text>
+      <rect x="302" y="262" width="166" height="26" rx="13" fill="none" stroke="#30363D"/>
+      <text x="385" y="279" fill="#8B949E">FULL-STACK · TS · PY</text>
+    </g>
+
+    <!-- chart panel -->
+    <rect x="588" y="60" width="384" height="236" rx="10" fill="#0D121A" stroke="#1F2937"/>
+    <text x="604" y="85" font-size="13" font-weight="700"><tspan fill="#FFB000">$VED</tspan><tspan fill="#6E7681"> · 1D</tspan></text>
+    <rect x="866" y="71" width="92" height="20" rx="4" fill="#00FF9C" fill-opacity=".1" stroke="#00FF9C"/>
+    <text x="912" y="85" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1" fill="#00FF9C">▲ SHIPPING</text>
+
+    <g stroke="#1F2937" stroke-dasharray="3 5">
+      <line x1="600" y1="110" x2="960" y2="110"/>
+      <line x1="600" y1="150" x2="960" y2="150"/>
+      <line x1="600" y1="190" x2="960" y2="190"/>
+      <line x1="600" y1="230" x2="960" y2="230"/>
+      <line x1="600" y1="270" x2="960" y2="270"/>
+    </g>
+
+    <!-- volume -->
+    <g opacity=".28">
+      <rect x="619" y="284" width="10" height="6" fill="#00FF9C"/>
+      <rect x="645" y="286" width="10" height="4" fill="#FF3B5C"/>
+      <rect x="671" y="281" width="10" height="9" fill="#00FF9C"/>
+      <rect x="697" y="283" width="10" height="7" fill="#00FF9C"/>
+      <rect x="723" y="285" width="10" height="5" fill="#FF3B5C"/>
+      <rect x="749" y="279" width="10" height="11" fill="#00FF9C"/>
+      <rect x="775" y="282" width="10" height="8" fill="#00FF9C"/>
+      <rect x="801" y="285" width="10" height="5" fill="#FF3B5C"/>
+      <rect x="827" y="278" width="10" height="12" fill="#00FF9C"/>
+      <rect x="853" y="280" width="10" height="10" fill="#00FF9C"/>
+      <rect x="879" y="284" width="10" height="6" fill="#FF3B5C"/>
+      <rect x="905" y="276" width="10" height="14" fill="#00FF9C"/>
+      <rect x="931" y="281" width="10" height="9" fill="#00FF9C"/>
+    </g>
+
+    <!-- candles -->
+    <g stroke-width="1.5">
+      <g class="c" style="animation-delay:.30s"><line x1="624" y1="230.4" x2="624" y2="257.4" stroke="#00FF9C"/><rect x="618" y="237.6" width="12" height="14.4" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:.45s"><line x1="650" y1="232.2" x2="650" y2="248.4" stroke="#FF3B5C"/><rect x="644" y="237.6" width="12" height="5.4" fill="#FF3B5C"/></g>
+      <g class="c" style="animation-delay:.60s"><line x1="676" y1="217.8" x2="676" y2="246.6" stroke="#00FF9C"/><rect x="670" y="223.2" width="12" height="19.8" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:.75s"><line x1="702" y1="203.4" x2="702" y2="226.8" stroke="#00FF9C"/><rect x="696" y="210.6" width="12" height="12.6" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:.90s"><line x1="728" y1="205.2" x2="728" y2="225" stroke="#FF3B5C"/><rect x="722" y="210.6" width="12" height="7.2" fill="#FF3B5C"/></g>
+      <g class="c" style="animation-delay:1.05s"><line x1="754" y1="189" x2="754" y2="221.4" stroke="#00FF9C"/><rect x="748" y="194.4" width="12" height="23.4" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:1.20s"><line x1="780" y1="171" x2="780" y2="198" stroke="#00FF9C"/><rect x="774" y="180" width="12" height="14.4" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:1.35s"><line x1="806" y1="174.6" x2="806" y2="196.2" stroke="#FF3B5C"/><rect x="800" y="180" width="12" height="7.2" fill="#FF3B5C"/></g>
+      <g class="c" style="animation-delay:1.50s"><line x1="832" y1="156.6" x2="832" y2="190.8" stroke="#00FF9C"/><rect x="826" y="162" width="12" height="25.2" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:1.65s"><line x1="858" y1="135" x2="858" y2="167.4" stroke="#00FF9C"/><rect x="852" y="142.2" width="12" height="19.8" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:1.80s"><line x1="884" y1="136.8" x2="884" y2="158.4" stroke="#FF3B5C"/><rect x="878" y="142.2" width="12" height="7.2" fill="#FF3B5C"/></g>
+      <g class="c" style="animation-delay:1.95s"><line x1="910" y1="111.6" x2="910" y2="153" stroke="#00FF9C"/><rect x="904" y="118.8" width="12" height="30.6" fill="#00FF9C"/></g>
+      <g class="c" style="animation-delay:2.10s"><line x1="936" y1="97.2" x2="936" y2="124.2" stroke="#00FF9C"/><rect x="930" y="104.4" width="12" height="14.4" fill="#00FF9C"/></g>
+    </g>
+
+    <!-- moving average + area -->
+    <path class="fade" style="animation-delay:4.2s" d="M624 245 L650 242 L676 234 L702 222 L728 215 L754 205 L780 192 L806 185 L832 174 L858 160 L884 150 L910 135 L936 115 L936 270 L624 270 Z" fill="url(#area)"/>
+    <path class="ma" pathLength="1" d="M624 245 L650 242 L676 234 L702 222 L728 215 L754 205 L780 192 L806 185 L832 174 L858 160 L884 150 L910 135 L936 115" fill="none" stroke="#FFB000" stroke-width="2" stroke-linejoin="round"/>
+    <g class="fade" style="animation-delay:4.4s">
+      <circle class="pulse" cx="936" cy="115" r="4" fill="none" stroke="#FFB000" stroke-width="2"/>
+      <circle cx="936" cy="115" r="4" fill="#FFB000"/>
+    </g>
+
+    <!-- CRT scanline -->
+    <rect x="0" y="40" width="1000" height="2" fill="#FFFFFF" opacity=".035">
+      <animate attributeName="y" values="40;316" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ticker tape -->
+    <rect x="0" y="316" width="1000" height="44" fill="#0F141C"/>
+    <line x1="0" y1="316" x2="1000" y2="316" stroke="#FFB000" stroke-opacity=".5"/>
+    <g font-size="14" font-weight="600">
+      <g>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1700 0" dur="40s" repeatCount="indefinite"/>
+        <text x="170" y="343" xml:space="preserve" textLength="1700" lengthAdjust="spacing"><tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">TS</tspan> <tspan fill="#8B949E">TYPESCRIPT</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">PY</tspan> <tspan fill="#8B949E">PYTHON</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">RCT</tspan> <tspan fill="#8B949E">REACT 19</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">NODE</tspan> <tspan fill="#8B949E">EXPRESS</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">SQL</tspan> <tspan fill="#8B949E">SQLITE</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">DKR</tspan> <tspan fill="#8B949E">DOCKER</tspan>      <tspan fill="#FFB000">●</tspan> <tspan fill="#FFB000">PALM</tspan> <tspan fill="#8B949E">STEALTH</tspan>      <tspan fill="#00FF9C">✓</tspan> <tspan fill="#FFB000">LEDGER</tspan> <tspan fill="#8B949E">BALANCED</tspan>      <tspan fill="#00FF9C">✓</tspan> <tspan fill="#FFB000">AUDIT</tspan> <tspan fill="#8B949E">TRAIL CLEAN</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">INVT</tspan> <tspan fill="#8B949E">INVENTRA</tspan>      </text>
+        <text x="1870" y="343" xml:space="preserve" textLength="1700" lengthAdjust="spacing"><tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">TS</tspan> <tspan fill="#8B949E">TYPESCRIPT</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">PY</tspan> <tspan fill="#8B949E">PYTHON</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">RCT</tspan> <tspan fill="#8B949E">REACT 19</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">NODE</tspan> <tspan fill="#8B949E">EXPRESS</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">SQL</tspan> <tspan fill="#8B949E">SQLITE</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">DKR</tspan> <tspan fill="#8B949E">DOCKER</tspan>      <tspan fill="#FFB000">●</tspan> <tspan fill="#FFB000">PALM</tspan> <tspan fill="#8B949E">STEALTH</tspan>      <tspan fill="#00FF9C">✓</tspan> <tspan fill="#FFB000">LEDGER</tspan> <tspan fill="#8B949E">BALANCED</tspan>      <tspan fill="#00FF9C">✓</tspan> <tspan fill="#FFB000">AUDIT</tspan> <tspan fill="#8B949E">TRAIL CLEAN</tspan>      <tspan fill="#00FF9C">▲</tspan> <tspan fill="#FFB000">INVT</tspan> <tspan fill="#8B949E">INVENTRA</tspan>      </text>
+      </g>
+    </g>
+    <rect x="0" y="317" width="150" height="43" fill="#FFB000"/>
+    <text x="75" y="343" text-anchor="middle" font-size="13" font-weight="800" letter-spacing="1" fill="#0A0E14">VED.TERMINAL</text>
+  </g>
+  <rect x=".5" y=".5" width="999" height="359" rx="16" fill="none" stroke="#1F2937"/>
+</svg>
